@@ -1,11 +1,15 @@
 //Desafio 1
 
+//Criadas as variáveis definindo as velocidades de cada material
 const velocidadeDiamente = 80
 const velocidadeMadeira = 20 
 const velocidadePedra = 40
 const velocidadeFerro = 60
+
+//Definindo qual será o bloco minerado
 const blocoMinerar = "Obsidiana"
 
+//Condicional imprimindo mensagem a depender do bloco escolhido para minerar
 if(blocoMinerar === ("Obsidiana" || "Minério de Diamante")){
     console.log("Use picareta de Diamante, velocidade:", velocidadeDiamente)
 }
@@ -26,8 +30,8 @@ const forcaEncatamento = 1.5 //(Multiplicador)
 const armaduraInimiga = 2 //(Redução de Dano)
 let vidaInimiga = 20 //(Vida do Creeper)
 
-let danoBruto = danoEspada * forcaEncatamento
-let danoFinal = danoBruto - armaduraInimiga
+const danoBruto = danoEspada * forcaEncatamento
+const danoFinal = danoBruto - armaduraInimiga
 
 vidaInimiga -= danoFinal
 
