@@ -16,4 +16,6 @@ else if(blocoMinerar === "Madeira") {
 else{
     console.log("Recurso não encontrado")
 }
+
+
    
