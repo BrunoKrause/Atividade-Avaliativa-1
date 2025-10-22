@@ -1,3 +1,4 @@
+//Desafio 1
 const velocidadeDiamente = 80
 const velocidadeMadeira = 20 
 const velocidadePedra = 40
@@ -17,5 +18,5 @@ else{
     console.log("Recurso não encontrado")
 }
 
-
+//Des
    
