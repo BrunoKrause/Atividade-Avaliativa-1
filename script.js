@@ -37,8 +37,8 @@ const danoFinal = danoBruto - armaduraInimiga
 //Operador aritmético simplificado, calculando a vida após dano
 vidaInimiga -= danoFinal
 
-//Se o valor da variável vidaInimiga for menor ou igual a zero, será executado a mensagem de if.
-//Caso não, será impresso a mensagem de else. 
+/*Se o valor da variável vidaInimiga for menor ou igual a zero, será executado a mensagem de if.
+Caso não, será impresso a mensagem de else. */
 if(vidaInimiga <= 0){
     console.log('O Creeper foi derrotado! Você sobreviveu à explosão!')
 } else {
@@ -46,8 +46,8 @@ if(vidaInimiga <= 0){
 }
 
 //Desafio 3
-//Criadas variáveis com tipos booleanos e number.
 
+//Criadas variáveis com tipos booleanos e number.
 const temDiamantes = false
 let nivelMesaCrafting = 2
 const temGravetos = true
