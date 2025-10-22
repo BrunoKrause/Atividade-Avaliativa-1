@@ -7,7 +7,7 @@ const velocidadePedra = 40
 const velocidadeFerro = 60
 
 //Definindo qual será o bloco minerado
-const blocoMinerar = "Obsidiana"
+const blocoMinerar = "Madeira"
 
 //Condicional imprimindo mensagem a depender do bloco escolhido para minerar
 if(blocoMinerar === ("Obsidiana" || "Minério de Diamante")){
@@ -49,9 +49,9 @@ if(vidaInimiga <= 0){
 
 //Criadas variáveis com tipos booleanos e number.
 const temDiamantes = false
-let nivelMesaCrafting = 2
+const nivelMesaCrafting = 2
 const temGravetos = true
-let temFerro = 8
+const temFerro = 8
 
 //Condições necessárias para que o Crafting seja permitido, será possível caso não tenha gravetos ou o nível da mesa de crafting seja menor que 3, além de ter diamantes ou ter 8 ou mais ferros.
 
