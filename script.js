@@ -49,14 +49,14 @@ if(vidaInimiga <= 0){
 
 //Criadas variáveis com tipos booleanos e number.
 const temDiamantes = false
-const nivelMesaCrafting = 2
-const temGravetos = true
+const nivelMesaCrafting = 3
+const temGravetos = false
 const temFerro = 8
 
 //Condições necessárias para que o Crafting seja permitido, será possível caso não tenha gravetos ou o nível da mesa de crafting seja menor que 3, além de ter diamantes ou ter 8 ou mais ferros.
 
-const condicional = ((temGravetos === false) || (nivelMesaCrafting < 3)) && ((temDiamantes === true) || (temDiamantes >= 8)) 
-
+const condicional = (((temGravetos === false) || (nivelMesaCrafting < 3)) && ((temDiamantes === true) || (temFerro >= 8)))
+console.log(condicional)
 // Utilizada a estrutura condicional if e else, sendo que se todas as variáveis forem true, será impresso no console a mensagem de if, e caso contrário a mensagem de else. 
 if(condicional){
     console.log('Picareta de Diamante criada! Hora de buscar Obsidiana!')
